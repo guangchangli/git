@@ -37,3 +37,21 @@ git logg --graph --oneline
 git checkout -- <file>   discard changes in workinig directory
 ```
 
+### 5.idea关联
+
+```
+1，git remote add origin 远程仓库地址
+
+2，git pull origin master --allow-unrelated-histories
+
+3，git branch --set-upstream-to=origin/master master
+
+4，git push
+```
+
+### 6.pull fetch
+
+```
+
+```
+
