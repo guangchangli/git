@@ -55,3 +55,17 @@ git checkout -- <file>   discard changes in workinig directory
 
 ```
 
+### 7.idea new rep
+
+```
+echo "# gogo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/guangchangli/gogo.git
+git push -u origin master
+
+git remote add origin https://github.com/guangchangli/gogo.git
+git push -u origin master
+```
+
