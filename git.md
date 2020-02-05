@@ -52,7 +52,9 @@ git checkout -- <file>   discard changes in workinig directory
 ### 6.pull fetch
 
 ```
-
+➜  myGin git:(master) git pull
+fatal: refusing to merge unrelated histories
+➜  myGin git:(master) git pull origin master --allow-unrelated-histories
 ```
 
 ### 7.idea new rep
