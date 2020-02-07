@@ -57,6 +57,36 @@ fatal: refusing to merge unrelated histories
 ➜  myGin git:(master) git pull origin master --allow-unrelated-histories
 ```
 
+```
+git fetch 
+是将远程最新内容拉到本地，用户检查后决定是否合并到本地g
+git pull
+将远程直接合并 git pull=git fetch + git merge
+```
+
+##### fetch
+
+```
+git fetch <remoteAddr> 更新全部
+git fetch <remoteAddr> <branchName>
+git log -p FETCH_HEAD 查看刚拉取的更新信息
+```
+
+##### pull
+
+```
+git pull <remoteAddr> <remoteBranch>:<localBranch>
+更新远程某个分支 并与本地指定分支合并，如果是当前分支可以省略：后面的
+```
+
+##### merge
+
+```
+
+```
+
+
+
 ### 7.idea new rep
 
 ```
