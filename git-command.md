@@ -154,8 +154,17 @@ gitignore只能忽略那些原来没有被track的文件，如果某些文件已
 ```
 
 ```
-git rm -r --cached .
+git rm -r -f --cached .
 git add .
 git commit -m 'update .gitignore'
 ```
+
+```
+删除暂存区指定文件
+git rm --cached readme.txt
+清空暂存区
+rm .git/index
+```
+
+
 
