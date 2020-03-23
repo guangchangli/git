@@ -166,5 +166,9 @@ git rm --cached readme.txt
 rm .git/index
 ```
 
-
+```
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: warning: See http://git.io/iEPt8g for more information.
+remote: warning: File gradle/boot-scaffolding/build/libs/scaffolding-1.0-SNAPSHOT.jar is 61.09 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+```
 
